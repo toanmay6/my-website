@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ảnh Full Màn Hình</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;       /* Nền đen */
+      display: flex;
+      justify-content: center;       /* Căn ngang */
+      align-items: center;           /* Căn dọc */
+      height: 100vh;                 /* Chiếm toàn bộ chiều cao trình duyệt */
+      overflow: hidden;              /* Không cuộn */
+    }
+
+    img {
+      max-width: 100vw;              /* Chiều rộng không vượt quá khung */
+      max-height: 100vh;             /* Chiều cao không vượt quá khung */
+      object-fit: contain;           /* Giữ nguyên tỷ lệ, không bị méo */
+    }
+  </style>
+</head>
+<body>
+
+  <img src="Untitled2.png" alt="Ảnh toàn màn hình">
+
+</body>
+</html>
